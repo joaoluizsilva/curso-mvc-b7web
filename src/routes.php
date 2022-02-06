@@ -5,6 +5,7 @@ $router = new Router();
 
 $router->get('/', 'HomeController@index');
 $router->get('/novo','UsuariosController@add');
+$router->post('/novo','UsuariosController@addAtion');
 
 // $router->get('/fotos','HomeController@fotos');
 // $router->get('/foto/{id}','HomeController@foto');

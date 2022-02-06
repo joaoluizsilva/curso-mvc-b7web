@@ -1,12 +1,7 @@
-<?php $render('header');?>
+<?php $render('header'); ?>
 
-Meu nome é: <?= $nome ;?> <br>
-Tenho <?= $idade; ?> anos.
+<div class="container">
+    <a href="<?= $base; ?>/novo">Novo Usuário</a>
+</div>
 
-<hr>
-
-<?php foreach ($posts as $post):?>
-    <h3><?= $post['titulo']; ?></h3>
-    <p><?= $post['corpo'];?>
-
-<?php endforeach; ?>
+<?php $render('footer'); ?>

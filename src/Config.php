@@ -2,7 +2,7 @@
 namespace src;
 
 class Config {
-    const BASE_DIR = '/mvc-master/public';
+    const BASE_DIR = '/curso-mvc-b7web/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';
